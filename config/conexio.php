@@ -7,7 +7,7 @@
 	{
 		
 		public static function connection(){
-			$cnx = new mysqli('localhost', 'root', '', 'elementary');
+			$cnx = new mysqli('localhost', '', '', '');
 			$cnx->set_charset("utf8");
 			return $cnx;
 		}
